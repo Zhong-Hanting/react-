@@ -1,0 +1,82 @@
+.myheader {
+  display: flex;
+  background-color: #62cbfc;
+  flex-direction: column;
+
+  .top {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+
+    .top_left {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+      }
+
+      .top_text {
+        margin-left: 8px;
+      }
+    }
+
+    .right {
+      width: 20px;
+      height: 20px;
+      margin-top: 20px;
+      margin-right: 8px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 15px;
+
+    .line {
+      border-right: 1px solid #fff;
+    }
+
+    .under {
+      width: 30%;
+
+      p {
+        text-align: center;
+        margin: 0 0 10px 0;
+      }
+
+      .under_con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 25px;
+          height: 27px;
+          margin-right: 15px;
+        }
+
+      }
+    }
+  }
+}
+.mymain{
+  margin-top: 15px;
+  .mylistone{
+    border-bottom: 1px solid #ddd;
+    border-top: 10px solid #eee;
+  }
+  .mylisttwo{
+    border-bottom: 1px solid #ddd;
+    border-top: 10px solid #eee;
+  }
+  .mylistthree{
+    border-bottom: 1px solid #ddd;
+    border-top: 10px solid #eee;
+  }
+}

@@ -1,0 +1,55 @@
+.citybox{
+    height: 100%;
+    #city_list_box{
+        position: fixed;
+        left: 0;
+
+    
+    .searchcity{
+        display:block;
+        text-align: center;
+        color: #0ABDFC;
+        background: #eaeaea;
+        font-size:24px;
+        
+    }
+    .city_title{
+        margin:10px 0;
+      
+        
+    h4{
+        margin: 0;
+        color: #0ABDFC;
+    }
+    .city_child{
+        display: inline-block;
+        text-align: center;
+       padding: 5px;
+       width: 65px;
+       height: 20px;
+     color: #fff;
+     margin: 5px;
+       background: #0ABDFC;
+        
+       
+
+    }
+}
+    }
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    position: fixed;
+    top: 80px;
+    width: 20px;
+   background: #0ABDFC;
+   color: #fff;
+   text-align: center;
+    right: 0;
+    h3{
+        margin:5px 0;
+    }
+}

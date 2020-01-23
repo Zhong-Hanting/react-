@@ -1,0 +1,45 @@
+.chatbox{
+    background: #65CBFC;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    .am-wingblank.am-wingblank-lg{
+        width: 90%;
+    }
+    .content{ 
+        padding:10px 0 ;
+        height:340px;
+        background: #fff;
+        text-align: center;
+        img{
+            border-radius:50%;
+            width: 170px;
+            height: 170px;
+        }
+        div{
+            .smallp{
+                display: inline-block;
+                margin: 0;
+                color: chartreuse;
+                font-weight: bold;
+                font-size: 18px;
+            }
+        }
+        button{
+            width: 150px;
+            height: 40px;
+            background: #65CBFC;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            h3{
+                margin: 0;
+                color: #fff;
+            }
+        }
+    }
+    
+   
+}
